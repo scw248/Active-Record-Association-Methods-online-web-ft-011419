@@ -9,4 +9,5 @@ class Song < ActiveRecord::Base
   def drake_made_this
     self.artist = drake
   end
+  
 end
